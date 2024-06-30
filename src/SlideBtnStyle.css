@@ -1,0 +1,64 @@
+.btnES{
+    display: inline-flex;
+}
+
+.btnS{
+    position: relative;
+    width: 250px;
+    height: 60px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 60px;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255,255,255,0.5) ;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    border-bottom:rgba(255,255,255,0.35) ;
+    border-right:rgba(255,255,255,0.35) ;
+    display: flex;
+    padding-left: 20px;
+    overflow: hidden;
+    
+}
+.btnS:hover{
+    padding-left: 0px;
+    padding-right: 50px;
+    color: rgba(255,255,255,0.5);
+}
+
+.btnS span{
+    position: absolute;
+    left:5px;
+    width: 50px;
+    height:50px;
+    background: #04fe4d;
+    border-radius: 50%;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #1a191d;
+    font-size: 1.5rem;
+}
+
+.btnS:hover span{
+    left: calc(100% - 55px);
+}
+
+.btnS:after{
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 100%;
+    z-index: 1;
+    background: rgba(255,255,255,0.5);
+    transform: translateX(-180px) skewX(30deg);
+    transition: 0.75s ease-in-out;
+}
+
+.btnS:hover:after{
+    transform: translateX(200px) skewX(30deg);
+}

@@ -1,0 +1,23 @@
+[
+    {
+        "id": "guess_the_number",
+        "img": "image/guess_number.jpg",
+        "tital": "Guess The Number",
+        "description": "Here you have to guess the number between 1 to 100",
+        "url": "/"
+    },
+    {
+        "id": "Tic_Tac_Toe",
+        "img": "image/tic_tac_toe.png",
+        "tital": "Tic Tac Toe",
+        "description": "Its 2 player game. Here you have to make countious line",
+        "url": "/"
+    },
+    {
+        "id": "guess_the_word",
+        "img": "image/guess_letters.png",
+        "tital": "Guess The Letters",
+        "description": "Here you have to guess the letters to complete the word",
+        "url": "/"
+    }
+]

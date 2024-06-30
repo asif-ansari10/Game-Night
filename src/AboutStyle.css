@@ -1,0 +1,12 @@
+.AHiigh, .AHigh, .para {
+    animation-duration: 1s;
+    animation-name: hf;
+}
+@keyframes hf {
+    from { 
+        margin-top: 90%;
+    }
+    to {
+        margin-top: 0%;
+    }
+}

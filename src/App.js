@@ -1,24 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import NavBar from './NavBar';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className='frontp'
+      style={{
+        backgroundImage: `url("https://www.orfonline.org/wp-content/uploads/2022/03/Indian-gaming-landscape.jpg")`,
+        backgroundSize: 'cover',
+        width:"100%",
+        height: "100vh",
+        backgroundRepeat: "no-repeat",}}
+      >
+        <NavBar />
+
+      </div>
+
   );
 }
 

@@ -1,0 +1,44 @@
+.textbox{
+    position: absolute;
+    bottom: 8%;
+    padding-left: 5%;
+}
+
+.textfh3{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.textfh1{
+    color: transparent;
+    font-size: 135px;
+    font-weight: 800;
+    line-height: 150px;
+    margin-left: -10px;
+    -webkit-text-stroke: 1px #fff;
+}
+
+.textfp{
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    margin-left: 120px;
+}
+
+.frontlink{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    border: solid white;
+    text-align: center;
+
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

@@ -1,0 +1,108 @@
+/* .frontbtn{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    border: solid white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.frontbtnbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.frontbtn:hover{
+    color: #fff;
+}
+.frontbtn span{
+    position:absolute;
+    width:50px ;
+    height:45px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #1a191d;
+    font-size: 1.5rem;
+    z-index: 1;
+    background-color: blueviolet;
+    
+    transition: 1s;
+}
+
+.frontbtn:hover span{
+    width: 100;
+} */
+
+.frontbtnbox{
+    display: inline-flex;
+}
+
+.frontbtn{
+    position: relative;
+    width: 250px;
+    height: 60px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 60px;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255,255,255,0.5) ;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    border-bottom:rgba(255,255,255,0.35) ;
+    border-right:rgba(255,255,255,0.35) ;
+    display: flex;
+    padding-left: 20px;
+    overflow: hidden;
+    
+}
+.frontbtn:hover{
+    padding-left: 0px;
+    padding-right: 50px;
+    color: rgba(255,255,255,0.5);
+}
+
+.frontbtn span{
+    position: absolute;
+    left:0px;
+    width: 20%;
+    height:100%;
+    background: blueviolet;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: blueviolet;
+    font-size: 1.5rem;
+}
+
+
+.frontbtn:hover span{
+    width: 100%;
+    color: #1a191d;
+}
+
+.frontbtn:after{
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 100%;
+    z-index: 1;
+    background: rgba(255,255,255,0.5);
+    transform: translateX(-180px) skewX(30deg);
+    transition: 0.75s ease-in-out;
+}
+
+.frontbtn:hover:after{
+    transform: translateX(200px) skewX(30deg);
+}
